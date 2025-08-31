@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HopeSource Foundation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-red-600">HopeSource Foundation</h1>
+      <ul class="flex space-x-6 text-lg">
+        <li><a href="#about" class="hover:text-red-600">About</a></li>
+        <li><a href="#work" class="hover:text-red-600">Our Work</a></li>
+        <li><a href="#get-involved" class="hover:text-red-600">Get Involved</a></li>
+        <li><a href="#contact" class="hover:text-red-600">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-red-600 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Together for Health, Education & Community</h2>
+    <p class="text-xl mb-6">HopeSource Foundation works to empower lives through AIDS awareness, education, and support for the Maratha community.</p>
+    <a href="#get-involved" class="bg-white text-red-600 px-6 py-3 rounded-lg font-semibold">Join Us</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold text-center mb-6">About Us</h3>
+    <p class="text-lg text-center">We are a non-profit committed to improving lives by raising awareness about HIV/AIDS, promoting education, and supporting the Maratha community with social initiatives.</p>
+  </section>
+
+  <!-- Our Work -->
+  <section id="work" class="bg-gray-100 py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Our Work</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-3">AIDS Awareness</h4>
+        <p>Conducting health camps, awareness drives, and supporting those affected by HIV/AIDS.</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-3">Education</h4>
+        <p>Scholarships, learning programs, and digital education access for underprivileged children.</p>
+      </div>
+      <div class="p-6 bg-white rounded-lg shadow">
+        <h4 class="text-xl font-semibold mb-3">Maratha Community</h4>
+        <p>Skill-building, social support, and cultural initiatives to empower the Maratha community.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Involved -->
+  <section id="get-involved" class="py-16 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Get Involved</h3>
+    <p class="mb-6">Join us in making a difference. Volunteer, donate, or partner with us to bring change.</p>
+    <a href="mailto:info@hopesourcefoundation.org" class="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-800 text-white py-6 text-center">
+    <p>© 2025 HopeSource Foundation. All rights reserved.</p>
+    <p>Email: info@hopesourcefoundation.org | Phone: +91-XXXXXXXXXX</p>
+  </footer>
+
+</body>
+</html>
